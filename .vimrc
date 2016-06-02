@@ -4,6 +4,11 @@
 "开启语法高亮
 syntax enable
 syntax on
+filetype plugin indent on
+
+" 设置自动补全，像zsh一样，see Tip 32 Choosing from Multiple Matches
+set wildmenu
+set wildmode=full
 
 let $VIM = "/home/paul/vim/"
 "配色
@@ -270,3 +275,14 @@ nmap <C-\>e :cs find e <C-R>=expand("<cword>")<CR><CR>
 nmap <C-\>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
 nmap <C-\>i :cs find i s^<C-R>=expand("<cfile>")<CR>$<CR>
 nmap <C-\>d :cs find d <C-R>=expand("<cword>")<CR><CR>
+
+" for vim-pathogen, see https://github.com/tpope/vim-pathogen for more info
+execute pathogen#infect()
+
+
+
+" 改掉使用光标键的习惯
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>

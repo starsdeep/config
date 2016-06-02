@@ -6,9 +6,6 @@ export PATH=/Applications/MATLAB_R2014a.app/bin:$PATH
 
 #export CPATH=/Users/starsdeep/workspace/common/cpp/include:$CPATH
 
-
-
-
 export CLASSPATH=/Users/starsdeep/workspace/jars/algs4/stdlib.jar:/Users/starsdeep/workspace/jars/algs4/algs4.jar
 export CLICOLOR=1
 export LSCOLORS=gxfxaxdxcxegedabagacad
@@ -23,7 +20,11 @@ alias myg++='g++ -I /Users/starsdeep/workspace/common/cpp/include -L /Users/star
 alias sshcm3='ssh xiaoxi.jiang@login1.cm3.taobao.org'
 alias sshcm4='ssh xiaoxi.jiang@login1.cm4.taobao.org'
 alias sshaliyun='ssh kevin@139.129.12.69'
-
+alias ssh146='ssh starsdeep@10.76.0.146'
+alias ssh144='ssh yikangliao@10.76.0.144'
+alias ssh50='ssh yikangliao@10.76.1.50'
+alias ssh109='ssh yikangliao@10.76.0.109'
+alias ssh146='ssh yikangliao@10.76.0.146'
 alias vi='vim'
 #alias ls='ls --color=auto'
 alias ll='ls -alh'
@@ -88,3 +89,12 @@ export DYLD_LIBRARY_PATH=/Developer/NVIDIA/CUDA-7.5/lib:$DYLD_LIBRARY_PATH
 #set locale
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+
+
+# for anaconda
+export PATH=$HOME/anaconda/bin:$PATH
+
+
+
+
