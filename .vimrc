@@ -173,9 +173,9 @@ map <F5> :w<cr>:!python %<cr>
 
 "CTRL-s    保存（保持当前模式不变） 
 "CTRL-o    打开文件对话框
-noremap <C-s> :w<CR>   
-noremap! <C-s> <ESC><ESC>:w<CR>a   
-noremap <C-o> :browse tabnew<CR>:cd %:p:h<CR>   
+"noremap <C-s> :w<CR>   
+"noremap! <C-s> <ESC><ESC>:w<CR>a   
+"noremap <C-o> :browse tabnew<CR>:cd %:p:h<CR>   
 
 "Tab       跳至下一窗口 
 "SHIFT-Tab 跳至上一窗口
@@ -286,3 +286,6 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+
+" paste 模式
+set pastetoggle=<f4>
